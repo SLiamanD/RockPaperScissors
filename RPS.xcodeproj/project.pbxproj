@@ -15,6 +15,8 @@
 		C8F8362C27B82DFB003FFF6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F8362A27B82DFB003FFF6D /* LaunchScreen.storyboard */; };
 		C8F8363727B82DFC003FFF6D /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8363627B82DFC003FFF6D /* RPSTests.swift */; };
 		C8F8364227B82DFC003FFF6D /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8364127B82DFC003FFF6D /* RPSUITests.swift */; };
+		C8F8365227B834A2003FFF6D /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8365127B834A2003FFF6D /* GameState.swift */; };
+		C8F8365427B83515003FFF6D /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8365327B83515003FFF6D /* Sign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C8F8363D27B82DFC003FFF6D /* RPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F8364127B82DFC003FFF6D /* RPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITests.swift; sourceTree = "<group>"; };
 		C8F8364327B82DFC003FFF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F8365127B834A2003FFF6D /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		C8F8365327B83515003FFF6D /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		C8F8361E27B82DF8003FFF6D /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				C8F8365327B83515003FFF6D /* Sign.swift */,
+				C8F8365127B834A2003FFF6D /* GameState.swift */,
 				C8F8361F27B82DF8003FFF6D /* AppDelegate.swift */,
 				C8F8362127B82DF8003FFF6D /* SceneDelegate.swift */,
 				C8F8362327B82DF8003FFF6D /* ViewController.swift */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F8362427B82DF8003FFF6D /* ViewController.swift in Sources */,
+				C8F8365227B834A2003FFF6D /* GameState.swift in Sources */,
+				C8F8365427B83515003FFF6D /* Sign.swift in Sources */,
 				C8F8362027B82DF8003FFF6D /* AppDelegate.swift in Sources */,
 				C8F8362227B82DF8003FFF6D /* SceneDelegate.swift in Sources */,
 			);
